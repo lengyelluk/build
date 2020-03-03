@@ -12,7 +12,7 @@ const MongoStore = require('connect-mongo')(session);
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, '/build')));
+app.use(express.static(path.join(__dirname, 'client/build')));
 //Application level middleware
 app.use(cors());
 
