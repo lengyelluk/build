@@ -11,7 +11,7 @@ const MongoStore = require('connect-mongo')(session);
 
 const app = express();
 
-
+app.use(express.static(path.join(__dirname, '/build')));
 //Application level middleware
 app.use(cors());
 
@@ -53,7 +53,9 @@ app.use('/users', routes.user);
 app.use('/messages', routes.message);
 app.use('/comments', routes.comment);
 
-
+app.get('/*', (req, res) => {
+	res.sendFile(path.join(__dirname + '/build/index.html'));
+});
 
 connectDb().then( () => {
 	console.log('connected to MongoDB');
