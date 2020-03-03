@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da5c48cc.chunk.css",
+    "main.js": "/static/js/main.c89e07b9.chunk.js",
+    "main.js.map": "/static/js/main.c89e07b9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6fe874b4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6fe874b4.js.map",
+    "static/js/2.b06928bf.chunk.js": "/static/js/2.b06928bf.chunk.js",
+    "static/js/2.b06928bf.chunk.js.map": "/static/js/2.b06928bf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b5015199996a6c385cc485fe43ecacaf.js": "/precache-manifest.b5015199996a6c385cc485fe43ecacaf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.da5c48cc.chunk.css.map": "/static/css/main.da5c48cc.chunk.css.map",
+    "static/js/2.b06928bf.chunk.js.LICENSE": "/static/js/2.b06928bf.chunk.js.LICENSE",
+    "static/media/findRoom.jpg": "/static/media/findRoom.06ef1174.jpg",
+    "static/media/flat.jpg": "/static/media/flat.dfb6eae2.jpg",
+    "static/media/logo.png": "/static/media/logo.30e447f2.png",
+    "static/media/rentOutRoom.jpg": "/static/media/rentOutRoom.c1b5f7b0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fe874b4.js",
+    "static/js/2.b06928bf.chunk.js",
+    "static/css/main.da5c48cc.chunk.css",
+    "static/js/main.c89e07b9.chunk.js"
+  ]
+}
