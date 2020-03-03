@@ -7,6 +7,7 @@ import mongoose from 'mongoose';
 import models, { connectDb } from './models';
 import routes from './routes';
 import auth from './lib/auth';
+import path from 'path';
 const MongoStore = require('connect-mongo')(session);
 
 const app = express();
