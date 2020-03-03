@@ -1,0 +1,12 @@
+.grid {
+	display: flex;
+	justify-content: center;
+}
+
+.menu-option-heading {
+	font-size: 25px;
+}
+
+.menu-option-photo {
+	width: 500px;
+}

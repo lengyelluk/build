@@ -1,0 +1,42 @@
+[
+	{
+		"_id": 0,
+		"user": "Lukas",
+		"text": "a very nice flat"
+	},
+	{
+		"_id": 0,
+		"user": "Alena",
+		"text": "not really"
+	},
+	{
+		"_id": 1,
+		"user": "Jozef",
+		"text": "too expensive"
+	},
+	{
+		"_id": 1,
+		"user": "Lukas",
+		"text": "I don't think so"
+	},
+	{
+		"_id": 1,
+		"user": "Jozef",
+		"text": "yes, it is!"
+	},
+	{
+		"_id": 2,
+		"user": "Lukas",
+		"text": "hipster paradise"
+	},
+	{
+		"_id": 2,
+		"user": "Alena",
+		"text": "are pets allowed?"
+	},
+	{
+		"_id": 2,
+		"user": "Lukas",
+		"text": "it is in description"
+	}
+]

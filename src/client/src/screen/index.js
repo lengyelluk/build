@@ -1,0 +1,6 @@
+export { default as AboutScreen } from './About'
+export { default as AddFlatScreen } from './AddFlat'
+export { default as FlatDetailScreen } from './FlatDetail'
+export { default as FlatListScreen } from './FlatList'
+export { default as HomeScreen } from './Home'
+export { default as RegisterScreen } from  './Register'
