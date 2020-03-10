@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose, { Schema } from 'mongoose';
 import emailValidator from 'email-validator';
 import bcrypt from 'bcrypt';
 
@@ -6,7 +6,7 @@ import bcrypt from 'bcrypt';
 const SALT_ROUNDS = 12;
 
 //validate user schema
-const UserSchema = new mongoose.Schema({
+const UserSchema = new Schema({
   username: {
     type: String,
     unique: true,
