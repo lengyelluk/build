@@ -60,8 +60,10 @@ app.get('/*', (req, res) => {
 
 connectDb().then( () => {
 	console.log('connected to MongoDB');
-	app.listen(process.env.PORT); 
-	console.log(`App listening on port ${process.env.PORT}`);
+	
+	const port = process.env.PORT || 5000;
+	app.listen(port); 
+	console.log(`App listening on port ${port}`);
 	})
 	.catch((err) => {
 		console.error(err);
