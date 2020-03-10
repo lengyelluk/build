@@ -37,10 +37,14 @@ router.post('/', async (req, res) => {
 
 //delete a card
 router.delete('/:cardId', async (req, res) => {
-	const card = await req.context.models.Card.findById(
-		req.params.cardId,
-	); 
-    return res.remove(card);
+  const card = await req.context.models.Card.findById(
+    req.params.cardId,
+  );
+  let result = null;
+  if (card) {
+    result = await card.remove();
+  }
+  return res.send(result);
 });
 
 //add upvote
